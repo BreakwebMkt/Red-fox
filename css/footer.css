@@ -1,5 +1,5 @@
 footer {
-    background: url(../img/footer-bg.jpg) no-repeat center;
+    background: url(../img/footer-bg.png) no-repeat center;
     background-size: cover;
     color: var(--white);
     text-align: center;
@@ -23,7 +23,7 @@ footer {
     letter-spacing: 2px;
     font-size: .75rem;
     font-weight: 700;
-    color: var(--quick-silver);
+    color: white;
     position: relative;
     width: max-content;
     display: flex;
@@ -55,9 +55,7 @@ footer {
 .getInToch {
     width: 450px;
     padding-block: 15vh;
-    background-image: url(../img/footer-form-bg.png);
     background-size: cover;
-    background-color: var(--smoky-black-1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,8 +68,6 @@ footer {
     position: absolute;
     width: 20px;
     height: 100%;
-    background-color: var(--smoky-black-1);
-    background-image: url(../img/footer-form-pattern.svg);
     background-clip: border-box;
 }
 
@@ -86,7 +82,7 @@ footer {
 
 .getInToch .text {
     font-size: 1rem;
-    color: var(--quick-silver);
+    color: white;
     margin: 7px 0;
     transition: .3s ease;
 }
@@ -118,7 +114,7 @@ footer {
 .getInToch h3 {
     display: inline;
     gap: 5px;
-    color: var(--quick-silver);
+    color: white;
     font-size: .9rem;
     font-weight: 400;
     margin: 0;
