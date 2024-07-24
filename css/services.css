@@ -11,13 +11,13 @@ section.services {
 }
 
 .services:before {
-    content: url(../img/shape-5.png);
+    content: url(../img/shape-1.png);
     right: 0;
     top: 0;
 }
 
 .services:after {
-    content: url(../img/shape-5.png);
+    content: url(../img/shape-1.png);
     left: 0;
     bottom: 0; 
 }

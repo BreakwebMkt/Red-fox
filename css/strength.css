@@ -80,6 +80,18 @@ section.updates {
     
 }
 
+section.updates1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 12vh;
+    text-align: center;
+    color: var(--smoky-black-2);
+    background: url('../img/shape-6.png') repeat;
+    animation: moveBackground 10s linear infinite;
+    
+}
+
 .updates .subtitle:after {
     left: -21%;
 }
@@ -87,11 +99,20 @@ section.updates {
 .updates-box {
     display: flex;
     margin-block: 40px 50px;
-    gap: 170px;
+    gap: 40px;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
     
+}
+
+.updates-box1 {
+    display: flex;
+    margin-block: 40px 50px;
+    gap: 180px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .updates__item {
