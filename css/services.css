@@ -11,15 +11,15 @@ section.services {
 }
 
 .services:before {
-    content: url(../img/shape-1.png);
+    content: url(../img/shape-5.png);
     right: 0;
     top: 0;
 }
 
 .services:after {
-    content: url(../img/shape-1.png);
+    content: url(../img/shape-5.png);
     left: 0;
-    bottom: 0;
+    bottom: 0; 
 }
 
 .services:before, .services:after {
@@ -119,6 +119,16 @@ section.services {
     width: 100%;
     color: white;
 }
+
+.section-title1 {
+    font: calc(1.25rem + 1vw) 'POPPINS', cursive;
+    line-height: calc(2.25rem + 1vh) 'POPPINS', cursive;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    color: var(--eerie-black-4);
+}
+
 
 .service button {
     width: max-content;

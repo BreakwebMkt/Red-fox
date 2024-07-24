@@ -29,6 +29,7 @@ section.strength {
     width: calc(250px - 40px);
     flex-grow: 1;
     background: var(--smoky-black-2);
+    border-radius: 10%;
 
 }
 
@@ -86,7 +87,7 @@ section.updates {
 .updates-box {
     display: flex;
     margin-block: 40px 50px;
-    gap: 40px;
+    gap: 170px;
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
