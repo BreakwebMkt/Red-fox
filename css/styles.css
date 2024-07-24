@@ -1,9 +1,9 @@
 :root {
-    --gold-crayola: #e4c590;
-    --quick-silver: #a6a6a6;
+    --gold-crayola: #ff6927;
+    --quick-silver: white;
     --davys-grey: #595754;
     --smoky-black-1: #0e0d0b;
-    --smoky-black-2: #0e0d0c;
+    --smoky-black-2: #1b3465;
     --smoky-black-3: #121111;
     --eerie-black-1: #161718;
     --eerie-black-2: #1b1c1d;
@@ -78,7 +78,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'DM Sans';
+    font-family: 'POPPINS';
     font-weight: 400;
     background: var(--smoky-black-2);
     overflow: hidden;
@@ -130,6 +130,8 @@ body.loaded {
 .clients-section {
     text-align: center;
     padding: 20px;
+    text-transform: uppercase;
+    color: #1B3465;
     background-color: #ffffff;
 }
 

@@ -12,7 +12,7 @@ header {
 
 .slider-control {
     padding: 10px;
-    border: 2px solid var(--gold-crayola);
+    border: white;
     color: var(--gold-crayola);
     position: absolute;
     top: 50%;

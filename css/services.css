@@ -112,10 +112,12 @@ section.services {
 }
 
 .section-title {
-    font: calc(2.25rem + 1vw) 'Forum', cursive;
-    line-height: calc(2.25rem + 1vh) 'Forum', cursive;
+    font: calc(1.25rem + 1vw) 'POPPINS', cursive;
+    line-height: calc(2.25rem + 1vh) 'POPPINS', cursive;
     margin-bottom: 20px;
+    text-transform: uppercase;
     width: 100%;
+    color: white;
 }
 
 .service button {

@@ -1,10 +1,10 @@
 section.strength {
-    background: var(--eerie-black-1);
+    background: var(--white);
     padding-block: 12vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--white);
+    color: var(--smoky-black-2);
     text-align: center;
 }
 
@@ -28,11 +28,12 @@ section.strength {
     padding: 40px 20px;
     width: calc(250px - 40px);
     flex-grow: 1;
-    background: var(--eerie-black-3);
+    background: var(--smoky-black-2);
+
 }
 
 .strength__item:nth-child(2n) {
-    background: var(--smoky-black-3);
+    background: #224385;
 }
 
 .strength__item > img {
@@ -74,7 +75,8 @@ section.updates {
     align-items: center;
     padding-block: 12vh;
     text-align: center;
-    color: var(--white);
+    color: var(--smoky-black-2);
+    
 }
 
 .updates .subtitle:after {
@@ -88,6 +90,7 @@ section.updates {
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    
 }
 
 .updates__item {
@@ -101,7 +104,23 @@ section.updates {
     max-width: 320px;
     flex-grow: 1;
     padding-inline: 20px;
-    box-shadow: 0px -168px 64px -42px rgba(0, 0, 0, 0.9) inset;
+    font-style: "POPPINS";
+    overflow: hidden;
+    box-shadow: 0px -168px 64px -42px rgba(255, 255, 255, 0.9) inset;
+
+}
+
+.updates__item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    height: 450px;
+    width: 250px;
+    max-width: 320px;
+    flex-grow: 1;
+    padding-inline: 20px;
     overflow: hidden;
 }
 
@@ -121,7 +140,7 @@ section.updates {
 }
 
 .updates__item h2 {
-    font: 500 1.6rem 'Forum', cursive;
+    font: 500 1.2rem 'POPPINS', cursive;
     margin-block: 0 30px;
 }
 
@@ -130,8 +149,8 @@ section.updates {
     padding: 5px 10px;
     left: 20px;
     top: 20px;
-    background: var(--black);
-    color: var(--gold-crayola);
+    background:white;
+    color: #1b3465;
     font-weight: 700;
     font-size: .75rem;
     letter-spacing: 2px;

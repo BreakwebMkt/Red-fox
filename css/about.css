@@ -1,6 +1,6 @@
 .about {
-    background: var(--eerie-black-1);
-    color: var(--white);
+    background: var(--white);
+    color: var(--smoky-black-2);
     display: flex;
     padding-top: 15vh;
     padding-bottom: 25vh;
@@ -14,7 +14,7 @@
     background-clip: content-box;
     background-size: cover;
     position: relative;
-    border-radius: 70%;
+    border-radius: 14%;
 
 }
 

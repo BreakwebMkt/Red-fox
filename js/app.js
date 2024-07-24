@@ -143,7 +143,7 @@ let menu = [
     {
         dish: 'Desenvolvimento pessoal, social e emocional.',
         tag:'',
-        description: 'Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.',
+        description: 'Autonomia para lidar com seus sentimentos; Atividades coletivas e estimulo á socialização; Respeito ás diferenças.',
     },
     {
         dish: 'Desenvolvimento da Línguagem',

@@ -1,5 +1,5 @@
 section.menu {
-    background: var(--eerie-black-1);
+    background: var(--smoky-black-2);
     color: var(--white);
     display: flex;
     flex-direction: column;
@@ -93,8 +93,9 @@ section.menu {
 .menu__info > p {
     font-size: .9rem;
     line-height: 1.3rem;
-    color: var(--quick-silver);
+    color: var(--white);
     text-align: left;
+    font-style: "POPPINS";
 }
 
 .menu p.winter {
