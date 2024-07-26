@@ -61,7 +61,7 @@ section.menu {
 
 .menu__info h2 {
     margin: 0;
-    font: 1.5rem 'Forum', cursive;
+    font: 1.5rem 'POPPINS', cursive;
     text-align: left;
 }
 
@@ -86,7 +86,7 @@ section.menu {
 
 .menu__info h3 {
     margin: 0;
-    font: 1.5rem 'Forum', cursive;
+    font: 1.5rem 'POPPINS', cursive;
     color: var(--gold-crayola);
 }
 

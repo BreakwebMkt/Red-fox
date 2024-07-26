@@ -134,7 +134,7 @@ header {
 }
 
 .title {
-    font: calc(2rem + 4vw) 'Forum', cursive;
+    font: calc(2rem + 4vw) 'POPPINS', cursive;
     margin: 20px 0 15px 0;
     line-height: calc(2rem + 4vw);
     width: max(calc(55vw), 300px);
