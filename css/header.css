@@ -24,6 +24,14 @@ header {
     transition: .25s ease;
 }
 
+.desktop-img {
+    display: block;
+}
+
+.mobile-img {
+    display: none;
+}
+
 .slider-prev {
     left: calc(30px + 2vw);
 }
@@ -167,6 +175,14 @@ header {
 @media screen and (max-width: 768px) {
     .slider-control {
         display: none;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
     }
 }
 
