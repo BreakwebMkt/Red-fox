@@ -16,11 +16,11 @@
 
 .responsive-video {
     width: 100%;
-    height: auto; /* Ajustado para manter a proporção do vídeo */
+    height: auto;
     max-width: 100%;
     display: block;
     margin: 0 auto;
-    max-height: 70vh; /* Definindo altura máxima para evitar espaço em branco */
+    max-height: 70vh;
 }
 
 .about picture {
@@ -61,27 +61,19 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-
-.about .subtitle:after {
-    left: -60%;
+    font-size: 1rem; /* Tamanho base da fonte */
 }
 
 .about .paragraph {
     width: calc(70% - 30px);
     padding-right: 30px;
-    font-size: 1.1rem;
-    line-height: 2rem;
+    font-size: 1rem; /* Tamanho relativo */
+    line-height: 1.5rem; /* Linha em relação ao tamanho da fonte */
     margin-bottom: 20px;
 }
 
 .highlight {
     font-size: 1.1rem;
-}
-
-.about .highlight {
-    font-size: 1.1rem;
-    margin-bottom: 5px;
 }
 
 strong {
@@ -126,6 +118,7 @@ aside strong:hover:before {
     .about .paragraph {
         width: 90%;
         padding-right: 0;
+        font-size: 1.1rem;
     }
 
     .about__info {
@@ -179,7 +172,7 @@ aside strong:hover:before {
 
     .about .paragraph {
         hyphens: auto;
-        font-size: 1rem !important;
-        line-height: 1.8rem !important;
+        font-size: 1rem;
+        line-height: 1.8rem;
     }
 }
