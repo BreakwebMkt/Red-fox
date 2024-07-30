@@ -3,19 +3,24 @@
     color: var(--smoky-black-2);
     display: flex;
     padding-top: 15vh;
-    padding-bottom: 25vh;
+    padding-bottom: 0;
 }
 
 .about__image {
     width: calc(50% - 40px);
-    height: calc(max-content - 40px);
+    height: auto;
     padding: 20px;
-    background: url('../img/QUEM_SOMOS_1-removebg-preview.png') no-repeat top;
-    background-clip: content-box;
-    background-size: cover;
     position: relative;
     border-radius: 14%;
+}
 
+.responsive-video {
+    width: 100%;
+    height: auto; /* Ajustado para manter a proporção do vídeo */
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-height: 70vh; /* Definindo altura máxima para evitar espaço em branco */
 }
 
 .about picture {
@@ -31,7 +36,6 @@
     pointer-events: none;
 }
 
-
 .badge {
     display: flex;
     position: absolute;
@@ -44,7 +48,6 @@
     position: absolute;
     right: 0;
     top: 0;
-
 }
 
 .badge img:nth-child(2) {
@@ -117,13 +120,13 @@ aside strong:hover:before {
         flex-direction: column;
         align-items: center;
         gap: 10vh;
-        padding-bottom: 20vh;
+        padding-bottom: 10vh;
     }
 
     .about .paragraph {
         width: 90%;
         padding-right: 0;
-    }    
+    }
 
     .about__info {
         width: 100%;
@@ -132,7 +135,7 @@ aside strong:hover:before {
 
     .about__image {
         width: calc(90% - 80px);
-        height: calc(700px - 20vw);
+        height: auto;
         padding: 20px 20px 20px 60px;
     }
 
@@ -146,7 +149,7 @@ aside strong:hover:before {
 @media screen and (max-width: 700px) {
     .about__image {
         width: calc(90% - 40px);
-        height: calc(500px - 10vw);
+        height: auto;
         padding: 0 20px 0 20px;
     }
 
@@ -165,7 +168,7 @@ aside strong:hover:before {
 @media screen and (max-width: 500px) {
     .about__image {
         width: calc(90%);
-        height: calc(500px - 5vw);
+        height: auto;
         padding: 0;
     }
 
