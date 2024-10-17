@@ -1,9 +1,9 @@
 nav {
     height: 80px;
     display: flex;
-    margin-top: 20px;
     justify-content: space-between;
     align-items: center;
+    background: var(--eerie-black-4);
     transition: .25s ease;
 }
 
@@ -54,7 +54,7 @@ a.nav-items--active:before {
 }
 
 .btn {
-    border: 2px solid var(--white);
+    border: 2px solid var(--gold-crayola);
     padding: 12px 45px;
     width: 200px;
     height: 50px;
@@ -67,7 +67,7 @@ a.nav-items--active:before {
     position: absolute;
     top: 50%;
     left: 50%;
-    color: var(--white);
+    color: var(--gold-crayola);
     transform: translate(-50%, -50%);
     min-width: max-content;
     font-size: 12px;
@@ -183,10 +183,6 @@ nav.scrolled {
     z-index: 80;
 }
 
-.hide {
-    transform: translateY(-100%);
-    pointer-events: none;
-}
 
 aside {
     opacity: 0;

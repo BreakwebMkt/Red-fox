@@ -109,6 +109,7 @@ body.loaded {
 .topbar {
     min-height: 45px;
     max-height: 45px;
+    background: var(--eerie-black-4);
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--white-alpha-10);
@@ -116,15 +117,32 @@ body.loaded {
 
 .topbar-section {
     display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.topbar-section_tell {
+    display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.topbar__item {
+.topbar__itemTell {
     display: flex;
-    align-items: center;
     gap: 8px;
     cursor: pointer;
+}
+
+.topbar__item{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.topbar__item a {
+        display: flex;
+        gap: 10px;
+
 }
 
 .clients-section {

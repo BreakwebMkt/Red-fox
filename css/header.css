@@ -147,7 +147,8 @@ header {
 }
 
 .slider-item .btn {
-    margin-top: 40px;
+    margin-top: 500px;
+    width: 300px;
 }
 
 [reveal] {
