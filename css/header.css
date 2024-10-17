@@ -150,7 +150,7 @@ header {
     width: 300px;
     position: absolute;
     bottom: 5%; /* Mantém o botão perto do rodapé */
-    left: 40%; /* Posiciona o botão no centro da tela */
+    left: 42%; /* Posiciona o botão no centro da tela */
     transform: translateX(-50%); /* Centraliza o botão horizontalmente */
 }
 
